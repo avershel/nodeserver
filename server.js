@@ -14,7 +14,7 @@ var cookieParser = CookieParser(SECRET);
 var session = require('express-session');
 var connectRedis = require('connect-redis');
 var RedisStore = connectRedis(session);
-var rClient = redis.createClient(6379, process.env.PARAM2);
+var rClient = redis.createClient(6379, process.env.PARAM1);
 var sessionStore = new RedisStore({client: rClient});
 // var ip = require('ip');
 app.set('trust proxy', 1);
@@ -122,6 +122,3 @@ http.listen(process.env.PORT || 3000, function(){
   else
   console.log('listening on 3000');
 });
-// passing the session store and cookieParser
-app.sessionStore = sessionStore;
-app.cookieParser = cookieParser;
