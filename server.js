@@ -1,3 +1,4 @@
+require('log-timestamp');
 var express = require('express');
 var app = express();
 var http = require('http').Server(app);
@@ -13,12 +14,10 @@ var cookieParser = CookieParser(SECRET);
 var session = require('express-session');
 var connectRedis = require('connect-redis');
 var RedisStore = connectRedis(session);
-var rClient = redis.createClient();
+var rClient = redis.createClient(6379, process.env.PARAM2);
 var sessionStore = new RedisStore({client: rClient});
-var SessionSockets = require('session.socket.io');
-var sessionSockets = new SessionSockets(io, sessionStore, cookieParser, 'jsessionid');
-
-
+// var ip = require('ip');
+app.set('trust proxy', 1);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser);
 app.use(session({
@@ -26,9 +25,12 @@ app.use(session({
   secret: SECRET,
   resave: true,
   saveUninitialized: true
-}))
+}));
 var path = require('path');
 var term = '';
+var tweets = [];
+var ids = [];
+var terms = [];
 
 app.get('/', function(req, res){
 console.log('about to serve index.html');
@@ -54,30 +56,7 @@ redisClient.on('subscribe', function(channel, count) {
 	console.log('redis client subscribed');
 });
 
-// // When we get a message from redis, we send the message down the socket to the client
-// redisClient.on('message', function(channel, message) {
-//   // console.log('got message');
-//
-//   var twit = JSON.parse(message);
-//
-//   if (term == null || term.length == 0) {
-//     io.emit('tweet', twit);
-//
-//   }
-//   else {
-//     if (twit.text) {
-//
-//
-//       var twittext = twit.text;
-//       // console.log(x);
-//       if (twittext.indexOf(term) > -1) {
-//         io.emit('tweet', twit);
-//
-//       }
-//
-//     }
-//   }
-// });
+
 
 // subscribe to listen to events from redis
 redisClient.on("ready", function () {
@@ -85,32 +64,56 @@ redisClient.on("ready", function () {
 	redisClient.subscribe("loc");
 });
 
-io.on('connection', function(socket) {
-    console.info('New client connected (id=' + socket.id + ').');
-    // console.log(socket);
-    if (socket.id) {
-      //rf = redis.fetch)cookie_info()
-      if (socket.id == 'hold=over') {
-        // if (rf)
+rClient.get('user_info', function(err, reply){
+  if (reply) {
+    ids = JSON.parse(reply);
+  }
+});
 
-        //term = rf.term;
-        //send filtered set
+
+redisClient.on('message', function(channel, message) {
+  // console.log(message.text);
+  if (ids.length > 0) {
+
+    for (var i = 0; i < ids.length; i++) {
+
+      if (ids.term != '') {
+        var parsedTweet = JSON.parse(message);
+
+        if (parsedTweet.text) {
+          var tweetText = parsedTweet.text;
+
+          if (tweetText.indexOf(ids[i].term) > -1) {
+            io.to(ids[i].id).emit('foo', message);
+
+          }
+        }
       }
       else {
-        //redis.setcookie(socket.id)
-        // When we get a message from redis, we send the message down the socket to the client
-        redisClient.on('message', function(channel, message) {
-          // console.log('got message');
+        io.to(ids[i].id).emit('foo', message);
 
-          var twit = JSON.parse(message);
-
-            io.emit('tweet', twit);
-
-
-        });
       }
     }
+  }
+});
 
+
+
+io.on('connection', function(socket) {
+  // console.log('server running on IP address... = ' + ip.address());
+  console.info('New client connected (id=' + socket.id + ').');
+  ids.push({id:socket.id, term:''})
+  rClient.set('user_info', JSON.stringify(ids));
+  socket.on('term', function(msg) {
+    for (var i = 0; i < ids.length; i++) {
+      if(ids[i].id == socket.id)
+      {
+        ids[i].term = msg;
+        rClient.set('user_info', JSON.stringify(ids));
+        break;
+      }
+    }
+  });
 });
 
 http.listen(process.env.PORT || 3000, function(){
@@ -119,35 +122,6 @@ http.listen(process.env.PORT || 3000, function(){
   else
   console.log('listening on 3000');
 });
-
-
-app.post('/query', function(req, res) {
-  console.log('posted');
-  console.log(req);
-  // console.log(req.body.firstname);
-  if(!req.body.hasOwnProperty('firstname')) {
-  res.statusCode = 400;
-  return res.send('Error 400: Post syntax incorrect.');
-}
-term = req.body.firstname;
-req.session.term = req.body.firstname;
-console.log('req.session.term = ' + req.session);
-console.log(term);
-res.sendFile(path.join(__dirname, 'index.html'));
-
-});
-
-
-sessionSockets.on('connection', function (err, socket, session) {
-  //your regular socket.io code goes here
-  //and you can still use your io object
-  console.log('session socket connection');
-  session.term = 'the';
-  console.log(session);
-  console.log(session.term);
-});
-
-
 // passing the session store and cookieParser
 app.sessionStore = sessionStore;
 app.cookieParser = cookieParser;
