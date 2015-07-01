@@ -16,6 +16,7 @@
   "dependencies": {
     "express": "*",
     "redis": "*",
-    "socket.io": "*"
+    "socket.io": "*",
+    "log-timestamp": "*"
   }
 }
