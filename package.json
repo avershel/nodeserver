@@ -17,6 +17,11 @@
     "express": "*",
     "redis": "*",
     "socket.io": "*",
-    "log-timestamp": "*"
+    "log-timestamp": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "express-session": "*",
+    "connect-redis": "*",
+    "path": "*"
   }
 }
