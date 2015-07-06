@@ -14,7 +14,7 @@ var cookieParser = CookieParser(SECRET);
 var session = require('express-session');
 var connectRedis = require('connect-redis');
 var RedisStore = connectRedis(session);
-var rClient = redis.createClient(6379, process.env.PARAM1);
+var rClient = redis.createClient(6379, process.env.PARAM2);
 var sessionStore = new RedisStore({client: rClient});
 // var ip = require('ip');
 app.set('trust proxy', 1);
@@ -64,7 +64,7 @@ redisClient.on("ready", function () {
 	redisClient.subscribe("loc");
 });
 
-rClient.get('user_info', function(err, reply){
+rClient.on('user_info', function(err, reply){
   if (reply) {
     ids = JSON.parse(reply);
   }
@@ -114,6 +114,7 @@ io.on('connection', function(socket) {
       }
     }
   });
+
 });
 
 http.listen(process.env.PORT || 3000, function(){
