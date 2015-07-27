@@ -17,9 +17,14 @@ var connectRedis = require('connect-redis');
 var RedisStore = connectRedis(session);
 var rClient = redis.createClient(6379, process.env.PARAM2);
 var sessionStore = new RedisStore({client: rClient});
+
+var cors = require('cors');
+var jsonObj = require("./country.json");
+
 app.set('trust proxy', 1);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser);
+app.use(cors());
 app.use(session({
   store: sessionStore,
   secret: SECRET,
@@ -27,12 +32,15 @@ app.use(session({
   saveUninitialized: true
 }));
 var path = require('path');
+// var $ = require('jquery');
 var term = '';
 var tweets = [];
 var ids = [];
 var terms = [];
 var alltweets = [];
 var current;
+var countrycodes = [];
+var checktweet;
 
 //http requests
 app.get('/', function(req, res){
@@ -48,183 +56,164 @@ app.get('/main.js', function(req, res){
   res.sendFile(path.join(__dirname, 'main.js'));
 });
 
-app.get('/tweets', function(req, res) {
-  res.json(alltweets);
-});
 
-app.get('/tweets/text', function(req, res) {
-  var holder = [];
-  for (var i = 0; i < alltweets.length; i++) {
-    var parsedTweet = JSON.parse(alltweets[i]);
-    if(parsedTweet.text)
-    {
-      holder.push(parsedTweet.text);
+//Streams
 
-    }
+//Real-time Stream
+app.get('/tweets/realtime', function(req, res) {
+
+  if(current && current !== null){
+    res.json(current);
+    current = null;
   }
-  res.json(holder);
-});
-
-app.get('/tweets/current', function(req, res) {
-  //DELETE THE NEXT LINEs
-  var twit = alltweets[alltweets.length -1];
-  var parsedTweet = JSON.parse(twit);
-  // var keys = Object.keys(parsedTweet);
-  res.json(parsedTweet);
-  // res.json(keys);
-});
-
-app.get('/tweets/current/keys', function(req, res) {
-  //DELETE THE NEXT LINEs
-  var twit = alltweets[alltweets.length -1];
-  var parsedTweet = JSON.parse(twit);
-  var keys = Object.keys(parsedTweet);
-  // res.json(parsedTweet);
-  res.send(keys);
-});
-
-app.get('/tweets/index/:id', function(req, res) {
-  res.json(alltweets[req.params.id]);
+  else {
+    res.json('no current');
+  }
 
 });
-app.get('/tweets/query/:id', function(req, res) {
-  var holder = [];
-  var x = req.params.id;
-  var y = x.toString();
-  for (var i = 0; i < alltweets.length; i++) {
-    var parsedTweet = JSON.parse(alltweets[i]);
+
+//Realtime stream w/ keyword query
+app.get('/tweets/realtime/query/:id', function(req, res) {
+  if(current){
+    var tweetholder = current;
+    var parsedTweet = JSON.parse(tweetholder);
     if(parsedTweet.text)
     {
       var tweettext = parsedTweet.text;
+      var x = req.params.id;
+      var y = x.toString();
       if (tweettext.indexOf(y) > -1) {
-        holder.push(alltweets[i]);
+        res.json(tweetholder);
+
       }
+      else {
+        res.json('string not in text');
+      }
+
+    }
+    else {
+      res.json('no text');
     }
   }
-  res.json(holder);
-});
-
-app.get('/tweets/query/:id/country/:cntry', function(req, res) {
-  var holder = [];
-  var x = req.params.id;
-  var y = x.toString();
-  for (var i = 0; i < alltweets.length; i++) {
-    var parsedTweet = JSON.parse(alltweets[i]);
-    if(parsedTweet.text)
-    {
-      var tweettext = parsedTweet.text;
-      if (tweettext.indexOf(y) > -1) {
-        if(parsedTweet.place){
-          var plc = parsedTweet.place;
-          if(plc.country){
-            var tweetcountry = plc.country;
-
-            // var tweetcountry = JSON.stringify(jsontweetcountry);
-            tweetcountry = tweetcountry.replace(/\s+/g, '');
-            tweetcountry = tweetcountry.replace(/"/g,"");
-
-            var paramcountry = req.params.cntry;
-            paramcountry = paramcountry.replace(/\s+/g, '');
-            paramcountry = paramcountry.toUpperCase();
-            tweetcountry = tweetcountry.toUpperCase();
-            console.log(tweetcountry + ' ' + paramcountry);
-            if (tweetcountry == paramcountry) {
-              holder.push(alltweets[i]);
-
-            }
-          }
-        }
-      }
-    }
+  else {
+    res.json('no current');
   }
-  res.json(holder);
-});
-app.get('/tweets/query/:id/countrycode/:ccode', function(req, res) {
-  var holder = [];
-  var x = req.params.id;
-  var y = x.toString();
-  for (var i = 0; i < alltweets.length; i++) {
-    var parsedTweet = JSON.parse(alltweets[i]);
-    if(parsedTweet.text)
-    {
-      var tweettext = parsedTweet.text;
-      if (tweettext.indexOf(y) > -1) {
-        if(parsedTweet.place){
-          var plc = parsedTweet.place;
-          if(plc.country_code){
-            var tweetcountry = plc.country_code;
-
-            // var tweetcountry = JSON.stringify(jsontweetcountry);
-            tweetcountry = tweetcountry.replace(/\s+/g, '');
-            tweetcountry = tweetcountry.replace(/"/g,"");
-
-            var paramcountry = req.params.ccode;
-            paramcountry = paramcountry.replace(/\s+/g, '');
-            paramcountry = paramcountry.toUpperCase();
-            tweetcountry = tweetcountry.toUpperCase();
-            console.log(tweetcountry + ' ' + paramcountry);
-            if (tweetcountry == paramcountry) {
-              holder.push(alltweets[i]);
-
-            }
-          }
-        }
-      }
-    }
-  }
-  res.json(holder);
 });
 
-app.get('/tweets/geo', function(req, res) {
-  var holder = [];
-  for (var i = 0; i < alltweets.length; i++) {
-    var parsedTweet = JSON.parse(alltweets[i]);
+
+
+app.get('/tweets/realtime/country/:id', function(req, res) {
+  if (current) {
+    var tweetholder = current;
+    var parsedTweet = JSON.parse(tweetholder);
+
     if(parsedTweet.place)
     {
-      holder.push(parsedTweet.place);
+      var plc = parsedTweet.place;
+
+      if(plc.country_code && plc.country){
+
+        var x = req.params.id;
+        var paramcountry = x.toString();
+        var tweetcountrycode = plc.country_code;
+        var paramcountrycode;
+
+        paramcountry = paramcountry.replace(/\s+/g, '');
+        paramcountry = paramcountry.toUpperCase();
+
+
+        for (var i = 0; i < jsonObj.length; i++) {
+          if(jsonObj[i].countrycaps == paramcountry)
+          {
+            paramcountrycode = jsonObj[i].ccode;
+            break;
+          }
+        }
+        if (tweetcountrycode == paramcountrycode) {
+          res.json(tweetholder);
+
+        }
+        else {
+          res.json('wrong country code');
+        }
+
+      }
+      else {
+        res.json('no country && code');
+      }
 
     }
+    else {
+      res.json('no place');
+    }
   }
-  res.json(holder);
+  else {
+    res.json('no current');
+  }
+
 });
 
-app.get('/tweets/geo/coordinates', function(req, res) {
-  var holder = [];
-  for (var i = 0; i < alltweets.length; i++) {
-    var parsedTweet = JSON.parse(alltweets[i]);
-    if(parsedTweet.place)
+//dont forget to change turkey!!! TÃœRKIYE
+app.get('/tweets/realtime/query/:id/country/:cntry', function(req, res) {
+  if (current) {
+    var tweetholder = current;
+    var x = req.params.id;
+    var y = x.toString();
+    var parsedTweet = JSON.parse(tweetholder);
+
+    if(parsedTweet.text)
     {
-      var x = parsedTweet.place;
-      if (x.bounding_box) {
-        var y = x.bounding_box;
-        if(y.coordinates)
+      var tweettext = parsedTweet.text;
+      if (tweettext.indexOf(y) > -1) {
+        if(parsedTweet.place)
         {
-          holder.push(y.coordinates);
+          var plc = parsedTweet.place;
+          if(plc.country_code && plc.country){
+            var pc = req.params.cntry;
+            var paramcountry = pc.toString();
+            var tweetcountrycode = plc.country_code;
+            var paramcountrycode;
+
+            paramcountry = paramcountry.replace(/\s+/g, '');
+            paramcountry = paramcountry.toUpperCase();
+
+            for (var i = 0; i < jsonObj.length; i++) {
+              if(jsonObj[i].countrycaps == paramcountry)
+              {
+                paramcountrycode = jsonObj[i].ccode;
+                break;
+              }
+            }
+            if (tweetcountrycode == paramcountrycode) {
+              res.json(tweetholder);
+
+            }
+            else {
+              res.json('wrong country code');
+            }
+
+          }
+          else {
+            res.json('no country && code');
+          }
+
+        }
+        else {
+          res.json('no place');
         }
       }
-
-    }
-  }
-  res.json(holder);
-});
-app.get('/tweets/geo/country', function(req, res) {
-  var holder = [];
-  for (var i = 0; i < alltweets.length; i++) {
-    var parsedTweet = JSON.parse(alltweets[i]);
-    if(parsedTweet.place)
-    {
-      var x = parsedTweet.place;
-      if (x.country) {
-
-
-        holder.push(x.country);
+      else {
+        res.json('string not in text');
       }
     }
+    else {
+      res.json('no text');
+    }
   }
-  res.json(holder);
+  else {
+    res.json('no current');
+  }
 });
-
-
 
 
 
@@ -232,12 +221,12 @@ app.get('/tweets/geo/country', function(req, res) {
 //Redis
 redisClient.on('subscribe', function(channel, count) {
   // log that we have subscribed to a channel
-  console.log('redis client subscribed');
+	console.log('redis client subscribed');
 });
 
 redisClient.on("ready", function () {
   // subscribe to listen to events from redis
-  redisClient.subscribe("loc");
+	redisClient.subscribe("loc");
 });
 
 rClient.on('user_info', function(err, reply){
@@ -257,7 +246,7 @@ redisClient.on('message', function(channel, message) {
         if (parsedTweet.text) {
           //update var current and var alltweets[] for api
           current = message;
-          alltweets.push(message);
+          // alltweets.push(message);
 
           var tweetText = parsedTweet.text;
 
