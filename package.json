@@ -22,6 +22,8 @@
     "cookie-parser": "*",
     "express-session": "*",
     "connect-redis": "*",
-    "path": "*"
+    "path": "*",
+    "cors": "*"
   }
 }
+
