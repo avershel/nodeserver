@@ -1,0 +1,1682 @@
+[
+  {
+    "countrycaps":"AFGHANISTAN",
+    "extra":"AFGHANISTAN",
+    "countrylower":"Afghanistan",
+    "ISO CODES":"AF / AFG",
+    "ccode":"AF"
+  },
+  {
+    "countrycaps":"ALBANIA",
+    "extra":"ALBANIA",
+    "countrylower":"Albania",
+    "ISO CODES":"AL / ALB",
+    "ccode":"AL"
+  },
+  {
+    "countrycaps":"ALGERIA",
+    "extra":"ALGERIA",
+    "countrylower":"Algeria",
+    "ISO CODES":"DZ / DZA",
+    "ccode":"DZ"
+  },
+  {
+    "countrycaps":"AMERICANSAMOA",
+    "extra":"AMERICAN SAMOA",
+    "countrylower":"American Samoa",
+    "ISO CODES":"AS / ASM",
+    "ccode":"AS"
+  },
+  {
+    "countrycaps":"ANDORRA",
+    "extra":"ANDORRA",
+    "countrylower":"Andorra",
+    "ISO CODES":"AD / AND",
+    "ccode":"AD"
+  },
+  {
+    "countrycaps":"ANGOLA",
+    "extra":"ANGOLA",
+    "countrylower":"Angola",
+    "ISO CODES":"AO / AGO",
+    "ccode":"AO"
+  },
+  {
+    "countrycaps":"ANGUILLA",
+    "extra":"ANGUILLA",
+    "countrylower":"Anguilla",
+    "ISO CODES":"AI / AIA",
+    "ccode":"AI"
+  },
+  {
+    "countrycaps":"ANTARCTICA",
+    "extra":"ANTARCTICA",
+    "countrylower":"Antarctica",
+    "ISO CODES":"AQ / ATA",
+    "ccode":"AQ"
+  },
+  {
+    "countrycaps":"ANTIGUAANDBARBUDA",
+    "extra":"ANTIGUA AND BARBUDA",
+    "countrylower":"Antigua and Barbuda",
+    "ISO CODES":"AG / ATG",
+    "ccode":"AG"
+  },
+  {
+    "countrycaps":"ARGENTINA",
+    "extra":"ARGENTINA",
+    "countrylower":"Argentina",
+    "ISO CODES":"AR / ARG",
+    "ccode":"AR"
+  },
+  {
+    "countrycaps":"ARMENIA",
+    "extra":"ARMENIA",
+    "countrylower":"Armenia",
+    "ISO CODES":"AM / ARM",
+    "ccode":"AM"
+  },
+  {
+    "countrycaps":"ARUBA",
+    "extra":"ARUBA",
+    "countrylower":"Aruba",
+    "ISO CODES":"AW / ABW",
+    "ccode":"AW"
+  },
+  {
+    "countrycaps":"AUSTRALIA",
+    "extra":"AUSTRALIA",
+    "countrylower":"Australia",
+    "ISO CODES":"AU / AUS",
+    "ccode":"AU"
+  },
+  {
+    "countrycaps":"AUSTRIA",
+    "extra":"AUSTRIA",
+    "countrylower":"Austria",
+    "ISO CODES":"AT / AUT",
+    "ccode":"AT"
+  },
+  {
+    "countrycaps":"AZERBAIJAN",
+    "extra":"AZERBAIJAN",
+    "countrylower":"Azerbaijan",
+    "ISO CODES":"AZ / AZE",
+    "ccode":"AZ"
+  },
+  {
+    "countrycaps":"BAHAMAS",
+    "extra":"BAHAMAS",
+    "countrylower":"Bahamas",
+    "ISO CODES":"BS / BHS",
+    "ccode":"BS"
+  },
+  {
+    "countrycaps":"BAHRAIN",
+    "extra":"BAHRAIN",
+    "countrylower":"Bahrain",
+    "ISO CODES":"BH / BHR",
+    "ccode":"BH"
+  },
+  {
+    "countrycaps":"BANGLADESH",
+    "extra":"BANGLADESH",
+    "countrylower":"Bangladesh",
+    "ISO CODES":"BD / BGD",
+    "ccode":"BD"
+  },
+  {
+    "countrycaps":"BARBADOS",
+    "extra":"BARBADOS",
+    "countrylower":"Barbados",
+    "ISO CODES":"BB / BRB",
+    "ccode":"BB"
+  },
+  {
+    "countrycaps":"BELARUS",
+    "extra":"BELARUS",
+    "countrylower":"Belarus",
+    "ISO CODES":"BY / BLR",
+    "ccode":"BY"
+  },
+  {
+    "countrycaps":"BELGIUM",
+    "extra":"BELGIUM",
+    "countrylower":"Belgium",
+    "ISO CODES":"BE / BEL",
+    "ccode":"BE"
+  },
+  {
+    "countrycaps":"BELIZE",
+    "extra":"BELIZE",
+    "countrylower":"Belize",
+    "ISO CODES":"BZ / BLZ",
+    "ccode":"BZ"
+  },
+  {
+    "countrycaps":"BENIN",
+    "extra":"BENIN",
+    "countrylower":"Benin",
+    "ISO CODES":"BJ / BEN",
+    "ccode":"BJ"
+  },
+  {
+    "countrycaps":"BERMUDA",
+    "extra":"BERMUDA",
+    "countrylower":"Bermuda",
+    "ISO CODES":"BM / BMU",
+    "ccode":"BM"
+  },
+  {
+    "countrycaps":"BHUTAN",
+    "extra":"BHUTAN",
+    "countrylower":"Bhutan",
+    "ISO CODES":"BT / BTN",
+    "ccode":"BT"
+  },
+  {
+    "countrycaps":"BOLIVIA",
+    "extra":"BOLIVIA",
+    "countrylower":"Bolivia",
+    "ISO CODES":"BO / BOL",
+    "ccode":"BO"
+  },
+  {
+    "countrycaps":"BOSNIAANDHERZEGOVINA",
+    "extra":"BOSNIA AND HERZEGOVINA",
+    "countrylower":"Bosnia and Herzegovina",
+    "ISO CODES":"BA / BIH",
+    "ccode":"BA"
+  },
+  {
+    "countrycaps":"BOTSWANA",
+    "extra":"BOTSWANA",
+    "countrylower":"Botswana",
+    "ISO CODES":"BW / BWA",
+    "ccode":"BW"
+  },
+  {
+    "countrycaps":"BRASIL",
+    "extra":"BRAZIL",
+    "countrylower":"Brazil",
+    "ISO CODES":"BR / BRA",
+    "ccode":"BR"
+  },
+  {
+    "countrycaps":"BRITISHINDIANOCEANTERRITORY",
+    "extra":"BRITISH INDIAN OCEAN TERRITORY",
+    "countrylower":"British Indian Ocean Territory",
+    "ISO CODES":"IO / IOT",
+    "ccode":"IO"
+  },
+  {
+    "countrycaps":"BRITISHVIRGINISLANDS",
+    "extra":"BRITISH VIRGIN ISLANDS",
+    "countrylower":"British Virgin Islands",
+    "ISO CODES":"VG / VGB",
+    "ccode":"VG"
+  },
+  {
+    "countrycaps":"BRUNEI",
+    "extra":"BRUNEI",
+    "countrylower":"Brunei",
+    "ISO CODES":"BN / BRN",
+    "ccode":"BN"
+  },
+  {
+    "countrycaps":"BULGARIA",
+    "extra":"BULGARIA",
+    "countrylower":"Bulgaria",
+    "ISO CODES":"BG / BGR",
+    "ccode":"BG"
+  },
+  {
+    "countrycaps":"BURKINAFASO",
+    "extra":"BURKINA FASO",
+    "countrylower":"Burkina Faso",
+    "ISO CODES":"BF / BFA",
+    "ccode":"BF"
+  },
+  {
+    "countrycaps":"BURUNDI",
+    "extra":"BURUNDI",
+    "countrylower":"Burundi",
+    "ISO CODES":"BI / BDI",
+    "ccode":"BI"
+  },
+  {
+    "countrycaps":"CAMBODIA",
+    "extra":"CAMBODIA",
+    "countrylower":"Cambodia",
+    "ISO CODES":"KH / KHM",
+    "ccode":"KH"
+  },
+  {
+    "countrycaps":"CAMEROON",
+    "extra":"CAMEROON",
+    "countrylower":"Cameroon",
+    "ISO CODES":"CM / CMR",
+    "ccode":"CM"
+  },
+  {
+    "countrycaps":"CANADA",
+    "extra":"CANADA",
+    "countrylower":"Canada",
+    "ISO CODES":"CA / CAN",
+    "ccode":"CA"
+  },
+  {
+    "countrycaps":"CAPEVERDE",
+    "extra":"CAPE VERDE",
+    "countrylower":"Cape Verde",
+    "ISO CODES":"CV / CPV",
+    "ccode":"CV"
+  },
+  {
+    "countrycaps":"CAYMANISLANDS",
+    "extra":"CAYMAN ISLANDS",
+    "countrylower":"Cayman Islands",
+    "ISO CODES":"KY / CYM",
+    "ccode":"KY"
+  },
+  {
+    "countrycaps":"CENTRALAFRICANREPUBLIC",
+    "extra":"CENTRAL AFRICAN REPUBLIC",
+    "countrylower":"Central African Republic",
+    "ISO CODES":"CF / CAF",
+    "ccode":"CF"
+  },
+  {
+    "countrycaps":"CHAD",
+    "extra":"CHAD",
+    "countrylower":"Chad",
+    "ISO CODES":"TD / TCD",
+    "ccode":"TD"
+  },
+  {
+    "countrycaps":"CHILE",
+    "extra":"CHILE",
+    "countrylower":"Chile",
+    "ISO CODES":"CL / CHL",
+    "ccode":"CL"
+  },
+  {
+    "countrycaps":"CHINA",
+    "extra":"CHINA",
+    "countrylower":"China",
+    "ISO CODES":"CN / CHN",
+    "ccode":"CN"
+  },
+  {
+    "countrycaps":"CHRISTMASISLAND",
+    "extra":"CHRISTMAS ISLAND",
+    "countrylower":"Christmas Island",
+    "ISO CODES":"CX / CXR",
+    "ccode":"CX"
+  },
+  {
+    "countrycaps":"COCOSISLANDS",
+    "extra":"COCOS ISLANDS",
+    "countrylower":"Cocos Islands",
+    "ISO CODES":"CC / CCK",
+    "ccode":"CC"
+  },
+  {
+    "countrycaps":"COLOMBIA",
+    "extra":"COLOMBIA",
+    "countrylower":"Colombia",
+    "ISO CODES":"CO / COL",
+    "ccode":"CO"
+  },
+  {
+    "countrycaps":"COMOROS",
+    "extra":"COMOROS",
+    "countrylower":"Comoros",
+    "ISO CODES":"KM / COM",
+    "ccode":"KM"
+  },
+  {
+    "countrycaps":"COOKISLANDS",
+    "extra":"COOK ISLANDS",
+    "countrylower":"Cook Islands",
+    "ISO CODES":"CK / COK",
+    "ccode":"CK"
+  },
+  {
+    "countrycaps":"COSTARICA",
+    "extra":"COSTA RICA",
+    "countrylower":"Costa Rica",
+    "ISO CODES":"CR / CRI",
+    "ccode":"CR"
+  },
+  {
+    "countrycaps":"CROATIA",
+    "extra":"CROATIA",
+    "countrylower":"Croatia",
+    "ISO CODES":"HR / HRV",
+    "ccode":"HR"
+  },
+  {
+    "countrycaps":"CUBA",
+    "extra":"CUBA",
+    "countrylower":"Cuba",
+    "ISO CODES":"CU / CUB",
+    "ccode":"CU"
+  },
+  {
+    "countrycaps":"CURACAO",
+    "extra":"CURACAO",
+    "countrylower":"Curacao",
+    "ISO CODES":"CW / CUW",
+    "ccode":"CW"
+  },
+  {
+    "countrycaps":"CYPRUS",
+    "extra":"CYPRUS",
+    "countrylower":"Cyprus",
+    "ISO CODES":"CY / CYP",
+    "ccode":"CY"
+  },
+  {
+    "countrycaps":"CZECHREPUBLIC",
+    "extra":"CZECH REPUBLIC",
+    "countrylower":"Czech Republic",
+    "ISO CODES":"CZ / CZE",
+    "ccode":"CZ"
+  },
+  {
+    "countrycaps":"DEMOCRATICREPUBLICOFTHECONGO",
+    "extra":"DEMOCRATIC REPUBLIC OF THE CONGO",
+    "countrylower":"Democratic Republic of the Congo",
+    "ISO CODES":"CD / COD",
+    "ccode":"CD"
+  },
+  {
+    "countrycaps":"DENMARK",
+    "extra":"DENMARK",
+    "countrylower":"Denmark",
+    "ISO CODES":"DK / DNK",
+    "ccode":"DK"
+  },
+  {
+    "countrycaps":"DJIBOUTI",
+    "extra":"DJIBOUTI",
+    "countrylower":"Djibouti",
+    "ISO CODES":"DJ / DJI",
+    "ccode":"DJ"
+  },
+  {
+    "countrycaps":"DOMINICA",
+    "extra":"DOMINICA",
+    "countrylower":"Dominica",
+    "ISO CODES":"DM / DMA",
+    "ccode":"DM"
+  },
+  {
+    "countrycaps":"DOMINICANREPUBLIC",
+    "extra":"DOMINICAN REPUBLIC",
+    "countrylower":"Dominican Republic",
+    "ISO CODES":"DO / DOM",
+    "ccode":"DO"
+  },
+  {
+    "countrycaps":"EASTTIMOR",
+    "extra":"EAST TIMOR",
+    "countrylower":"East Timor",
+    "ISO CODES":"TL / TLS",
+    "ccode":"TL"
+  },
+  {
+    "countrycaps":"ECUADOR",
+    "extra":"ECUADOR",
+    "countrylower":"Ecuador",
+    "ISO CODES":"EC / ECU",
+    "ccode":"EC"
+  },
+  {
+    "countrycaps":"EGYPT",
+    "extra":"EGYPT",
+    "countrylower":"Egypt",
+    "ISO CODES":"EG / EGY",
+    "ccode":"EG"
+  },
+  {
+    "countrycaps":"ELSALVADOR",
+    "extra":"EL SALVADOR",
+    "countrylower":"El Salvador",
+    "ISO CODES":"SV / SLV",
+    "ccode":"SV"
+  },
+  {
+    "countrycaps":"EQUATORIALGUINEA",
+    "extra":"EQUATORIAL GUINEA",
+    "countrylower":"Equatorial Guinea",
+    "ISO CODES":"GQ / GNQ",
+    "ccode":"GQ"
+  },
+  {
+    "countrycaps":"ERITREA",
+    "extra":"ERITREA",
+    "countrylower":"Eritrea",
+    "ISO CODES":"ER / ERI",
+    "ccode":"ER"
+  },
+  {
+    "countrycaps":"ESTONIA",
+    "extra":"ESTONIA",
+    "countrylower":"Estonia",
+    "ISO CODES":"EE / EST",
+    "ccode":"EE"
+  },
+  {
+    "countrycaps":"ETHIOPIA",
+    "extra":"ETHIOPIA",
+    "countrylower":"Ethiopia",
+    "ISO CODES":"ET / ETH",
+    "ccode":"ET"
+  },
+  {
+    "countrycaps":"FALKLANDISLANDS",
+    "extra":"FALKLAND ISLANDS",
+    "countrylower":"Falkland Islands",
+    "ISO CODES":"FK / FLK",
+    "ccode":"FK"
+  },
+  {
+    "countrycaps":"FAROEISLANDS",
+    "extra":"FAROE ISLANDS",
+    "countrylower":"Faroe Islands",
+    "ISO CODES":"FO / FRO",
+    "ccode":"FO"
+  },
+  {
+    "countrycaps":"FIJI",
+    "extra":"FIJI",
+    "countrylower":"Fiji",
+    "ISO CODES":"FJ / FJI",
+    "ccode":"FJ"
+  },
+  {
+    "countrycaps":"FINLAND",
+    "extra":"FINLAND",
+    "countrylower":"Finland",
+    "ISO CODES":"FI / FIN",
+    "ccode":"FI"
+  },
+  {
+    "countrycaps":"FRANCE",
+    "extra":"FRANCE",
+    "countrylower":"France",
+    "ISO CODES":"FR / FRA",
+    "ccode":"FR"
+  },
+  {
+    "countrycaps":"FRENCHPOLYNESIA",
+    "extra":"FRENCH POLYNESIA",
+    "countrylower":"French Polynesia",
+    "ISO CODES":"PF / PYF",
+    "ccode":"PF"
+  },
+  {
+    "countrycaps":"GABON",
+    "extra":"GABON",
+    "countrylower":"Gabon",
+    "ISO CODES":"GA / GAB",
+    "ccode":"GA"
+  },
+  {
+    "countrycaps":"GAMBIA",
+    "extra":"GAMBIA",
+    "countrylower":"Gambia",
+    "ISO CODES":"GM / GMB",
+    "ccode":"GM"
+  },
+  {
+    "countrycaps":"GEORGIA",
+    "extra":"GEORGIA",
+    "countrylower":"Georgia",
+    "ISO CODES":"GE / GEO",
+    "ccode":"GE"
+  },
+  {
+    "countrycaps":"GERMANY",
+    "extra":"GERMANY",
+    "countrylower":"Germany",
+    "ISO CODES":"DE / DEU",
+    "ccode":"DE"
+  },
+  {
+    "countrycaps":"GHANA",
+    "extra":"GHANA",
+    "countrylower":"Ghana",
+    "ISO CODES":"GH / GHA",
+    "ccode":"GH"
+  },
+  {
+    "countrycaps":"GIBRALTAR",
+    "extra":"GIBRALTAR",
+    "countrylower":"Gibraltar",
+    "ISO CODES":"GI / GIB",
+    "ccode":"GI"
+  },
+  {
+    "countrycaps":"GREECE",
+    "extra":"GREECE",
+    "countrylower":"Greece",
+    "ISO CODES":"GR / GRC",
+    "ccode":"GR"
+  },
+  {
+    "countrycaps":"GREENLAND",
+    "extra":"GREENLAND",
+    "countrylower":"Greenland",
+    "ISO CODES":"GL / GRL",
+    "ccode":"GL"
+  },
+  {
+    "countrycaps":"GRENADA",
+    "extra":"GRENADA",
+    "countrylower":"Grenada",
+    "ISO CODES":"GD / GRD",
+    "ccode":"GD"
+  },
+  {
+    "countrycaps":"GUAM",
+    "extra":"GUAM",
+    "countrylower":"Guam",
+    "ISO CODES":"GU / GUM",
+    "ccode":"GU"
+  },
+  {
+    "countrycaps":"GUATEMALA",
+    "extra":"GUATEMALA",
+    "countrylower":"Guatemala",
+    "ISO CODES":"GT / GTM",
+    "ccode":"GT"
+  },
+  {
+    "countrycaps":"GUERNSEY",
+    "extra":"GUERNSEY",
+    "countrylower":"Guernsey",
+    "ISO CODES":"GG / GGY",
+    "ccode":"GG"
+  },
+  {
+    "countrycaps":"GUINEA",
+    "extra":"GUINEA",
+    "countrylower":"Guinea",
+    "ISO CODES":"GN / GIN",
+    "ccode":"GN"
+  },
+  {
+    "countrycaps":"GUINEA-BISSAU",
+    "extra":"GUINEA-BISSAU",
+    "countrylower":"Guinea-Bissau",
+    "ISO CODES":"GW / GNB",
+    "ccode":"GW"
+  },
+  {
+    "countrycaps":"GUYANA",
+    "extra":"GUYANA",
+    "countrylower":"Guyana",
+    "ISO CODES":"GY / GUY",
+    "ccode":"GY"
+  },
+  {
+    "countrycaps":"HAITI",
+    "extra":"HAITI",
+    "countrylower":"Haiti",
+    "ISO CODES":"HT / HTI",
+    "ccode":"HT"
+  },
+  {
+    "countrycaps":"HONDURAS",
+    "extra":"HONDURAS",
+    "countrylower":"Honduras",
+    "ISO CODES":"HN / HND",
+    "ccode":"HN"
+  },
+  {
+    "countrycaps":"HONGKONG",
+    "extra":"HONG KONG",
+    "countrylower":"Hong Kong",
+    "ISO CODES":"HK / HKG",
+    "ccode":"HK"
+  },
+  {
+    "countrycaps":"HUNGARY",
+    "extra":"HUNGARY",
+    "countrylower":"Hungary",
+    "ISO CODES":"HU / HUN",
+    "ccode":"HU"
+  },
+  {
+    "countrycaps":"ICELAND",
+    "extra":"ICELAND",
+    "countrylower":"Iceland",
+    "ISO CODES":"IS / ISL",
+    "ccode":"IS"
+  },
+  {
+    "countrycaps":"INDIA",
+    "extra":"INDIA",
+    "countrylower":"India",
+    "ISO CODES":"IN / IND",
+    "ccode":"IN"
+  },
+  {
+    "countrycaps":"INDONESIA",
+    "extra":"INDONESIA",
+    "countrylower":"Indonesia",
+    "ISO CODES":"ID / IDN",
+    "ccode":"ID"
+  },
+  {
+    "countrycaps":"IRAN",
+    "extra":"IRAN",
+    "countrylower":"Iran",
+    "ISO CODES":"IR / IRN",
+    "ccode":"IR"
+  },
+  {
+    "countrycaps":"IRAQ",
+    "extra":"IRAQ",
+    "countrylower":"Iraq",
+    "ISO CODES":"IQ / IRQ",
+    "ccode":"IQ"
+  },
+  {
+    "countrycaps":"IRELAND",
+    "extra":"IRELAND",
+    "countrylower":"Ireland",
+    "ISO CODES":"IE / IRL",
+    "ccode":"IE"
+  },
+  {
+    "countrycaps":"ISLEOFMAN",
+    "extra":"ISLE OF MAN",
+    "countrylower":"Isle of Man",
+    "ISO CODES":"IM / IMN",
+    "ccode":"IM"
+  },
+  {
+    "countrycaps":"ISRAEL",
+    "extra":"ISRAEL",
+    "countrylower":"Israel",
+    "ISO CODES":"IL / ISR",
+    "ccode":"IL"
+  },
+  {
+    "countrycaps":"ITALY",
+    "extra":"ITALY",
+    "countrylower":"Italy",
+    "ISO CODES":"IT / ITA",
+    "ccode":"IT"
+  },
+  {
+    "countrycaps":"IVORYCOAST",
+    "extra":"IVORY COAST",
+    "countrylower":"Ivory Coast",
+    "ISO CODES":"CI / CIV",
+    "ccode":"CI"
+  },
+  {
+    "countrycaps":"JAMAICA",
+    "extra":"JAMAICA",
+    "countrylower":"Jamaica",
+    "ISO CODES":"JM / JAM",
+    "ccode":"JM"
+  },
+  {
+    "countrycaps":"JAPAN",
+    "extra":"JAPAN",
+    "countrylower":"Japan",
+    "ISO CODES":"JP / JPN",
+    "ccode":"JP"
+  },
+  {
+    "countrycaps":"JERSEY",
+    "extra":"JERSEY",
+    "countrylower":"Jersey",
+    "ISO CODES":"JE / JEY",
+    "ccode":"JE"
+  },
+  {
+    "countrycaps":"JORDAN",
+    "extra":"JORDAN",
+    "countrylower":"Jordan",
+    "ISO CODES":"JO / JOR",
+    "ccode":"JO"
+  },
+  {
+    "countrycaps":"KAZAKHSTAN",
+    "extra":"KAZAKHSTAN",
+    "countrylower":"Kazakhstan",
+    "ISO CODES":"KZ / KAZ",
+    "ccode":"KZ"
+  },
+  {
+    "countrycaps":"KENYA",
+    "extra":"KENYA",
+    "countrylower":"Kenya",
+    "ISO CODES":"KE / KEN",
+    "ccode":"KE"
+  },
+  {
+    "countrycaps":"KIRIBATI",
+    "extra":"KIRIBATI",
+    "countrylower":"Kiribati",
+    "ISO CODES":"KI / KIR",
+    "ccode":"KI"
+  },
+  {
+    "countrycaps":"KOSOVO",
+    "extra":"KOSOVO",
+    "countrylower":"Kosovo",
+    "ISO CODES":"XK / XKX",
+    "ccode":"XK"
+  },
+  {
+    "countrycaps":"KUWAIT",
+    "extra":"KUWAIT",
+    "countrylower":"Kuwait",
+    "ISO CODES":"KW / KWT",
+    "ccode":"KW"
+  },
+  {
+    "countrycaps":"KYRGYZSTAN",
+    "extra":"KYRGYZSTAN",
+    "countrylower":"Kyrgyzstan",
+    "ISO CODES":"KG / KGZ",
+    "ccode":"KG"
+  },
+  {
+    "countrycaps":"LAOS",
+    "extra":"LAOS",
+    "countrylower":"Laos",
+    "ISO CODES":"LA / LAO",
+    "ccode":"LA"
+  },
+  {
+    "countrycaps":"LATVIA",
+    "extra":"LATVIA",
+    "countrylower":"Latvia",
+    "ISO CODES":"LV / LVA",
+    "ccode":"LV"
+  },
+  {
+    "countrycaps":"LEBANON",
+    "extra":"LEBANON",
+    "countrylower":"Lebanon",
+    "ISO CODES":"LB / LBN",
+    "ccode":"LB"
+  },
+  {
+    "countrycaps":"LESOTHO",
+    "extra":"LESOTHO",
+    "countrylower":"Lesotho",
+    "ISO CODES":"LS / LSO",
+    "ccode":"LS"
+  },
+  {
+    "countrycaps":"LIBERIA",
+    "extra":"LIBERIA",
+    "countrylower":"Liberia",
+    "ISO CODES":"LR / LBR",
+    "ccode":"LR"
+  },
+  {
+    "countrycaps":"LIBYA",
+    "extra":"LIBYA",
+    "countrylower":"Libya",
+    "ISO CODES":"LY / LBY",
+    "ccode":"LY"
+  },
+  {
+    "countrycaps":"LIECHTENSTEIN",
+    "extra":"LIECHTENSTEIN",
+    "countrylower":"Liechtenstein",
+    "ISO CODES":"LI / LIE",
+    "ccode":"LI"
+  },
+  {
+    "countrycaps":"LITHUANIA",
+    "extra":"LITHUANIA",
+    "countrylower":"Lithuania",
+    "ISO CODES":"LT / LTU",
+    "ccode":"LT"
+  },
+  {
+    "countrycaps":"LUXEMBOURG",
+    "extra":"LUXEMBOURG",
+    "countrylower":"Luxembourg",
+    "ISO CODES":"LU / LUX",
+    "ccode":"LU"
+  },
+  {
+    "countrycaps":"MACAO",
+    "extra":"MACAO",
+    "countrylower":"Macao",
+    "ISO CODES":"MO / MAC",
+    "ccode":"MO"
+  },
+  {
+    "countrycaps":"MACEDONIA",
+    "extra":"MACEDONIA",
+    "countrylower":"Macedonia",
+    "ISO CODES":"MK / MKD",
+    "ccode":"MK"
+  },
+  {
+    "countrycaps":"MADAGASCAR",
+    "extra":"MADAGASCAR",
+    "countrylower":"Madagascar",
+    "ISO CODES":"MG / MDG",
+    "ccode":"MG"
+  },
+  {
+    "countrycaps":"MALAWI",
+    "extra":"MALAWI",
+    "countrylower":"Malawi",
+    "ISO CODES":"MW / MWI",
+    "ccode":"MW"
+  },
+  {
+    "countrycaps":"MALAYSIA",
+    "extra":"MALAYSIA",
+    "countrylower":"Malaysia",
+    "ISO CODES":"MY / MYS",
+    "ccode":"MY"
+  },
+  {
+    "countrycaps":"MALDIVES",
+    "extra":"MALDIVES",
+    "countrylower":"Maldives",
+    "ISO CODES":"MV / MDV",
+    "ccode":"MV"
+  },
+  {
+    "countrycaps":"MALI",
+    "extra":"MALI",
+    "countrylower":"Mali",
+    "ISO CODES":"ML / MLI",
+    "ccode":"ML"
+  },
+  {
+    "countrycaps":"MALTA",
+    "extra":"MALTA",
+    "countrylower":"Malta",
+    "ISO CODES":"MT / MLT",
+    "ccode":"MT"
+  },
+  {
+    "countrycaps":"MARSHALLISLANDS",
+    "extra":"MARSHALL ISLANDS",
+    "countrylower":"Marshall Islands",
+    "ISO CODES":"MH / MHL",
+    "ccode":"MH"
+  },
+  {
+    "countrycaps":"MAURITANIA",
+    "extra":"MAURITANIA",
+    "countrylower":"Mauritania",
+    "ISO CODES":"MR / MRT",
+    "ccode":"MR"
+  },
+  {
+    "countrycaps":"MAURITIUS",
+    "extra":"MAURITIUS",
+    "countrylower":"Mauritius",
+    "ISO CODES":"MU / MUS",
+    "ccode":"MU"
+  },
+  {
+    "countrycaps":"MAYOTTE",
+    "extra":"MAYOTTE",
+    "countrylower":"Mayotte",
+    "ISO CODES":"YT / MYT",
+    "ccode":"YT"
+  },
+  {
+    "countrycaps":"MEXICO",
+    "extra":"MEXICO",
+    "countrylower":"Mexico",
+    "ISO CODES":"MX / MEX",
+    "ccode":"MX"
+  },
+  {
+    "countrycaps":"MICRONESIA",
+    "extra":"MICRONESIA",
+    "countrylower":"Micronesia",
+    "ISO CODES":"FM / FSM",
+    "ccode":"FM"
+  },
+  {
+    "countrycaps":"MOLDOVA",
+    "extra":"MOLDOVA",
+    "countrylower":"Moldova",
+    "ISO CODES":"MD / MDA",
+    "ccode":"MD"
+  },
+  {
+    "countrycaps":"MONACO",
+    "extra":"MONACO",
+    "countrylower":"Monaco",
+    "ISO CODES":"MC / MCO",
+    "ccode":"MC"
+  },
+  {
+    "countrycaps":"MONGOLIA",
+    "extra":"MONGOLIA",
+    "countrylower":"Mongolia",
+    "ISO CODES":"MN / MNG",
+    "ccode":"MN"
+  },
+  {
+    "countrycaps":"MONTENEGRO",
+    "extra":"MONTENEGRO",
+    "countrylower":"Montenegro",
+    "ISO CODES":"ME / MNE",
+    "ccode":"ME"
+  },
+  {
+    "countrycaps":"MONTSERRAT",
+    "extra":"MONTSERRAT",
+    "countrylower":"Montserrat",
+    "ISO CODES":"MS / MSR",
+    "ccode":"MS"
+  },
+  {
+    "countrycaps":"MOROCCO",
+    "extra":"MOROCCO",
+    "countrylower":"Morocco",
+    "ISO CODES":"MA / MAR",
+    "ccode":"MA"
+  },
+  {
+    "countrycaps":"MOZAMBIQUE",
+    "extra":"MOZAMBIQUE",
+    "countrylower":"Mozambique",
+    "ISO CODES":"MZ / MOZ",
+    "ccode":"MZ"
+  },
+  {
+    "countrycaps":"MYANMAR",
+    "extra":"MYANMAR",
+    "countrylower":"Myanmar",
+    "ISO CODES":"MM / MMR",
+    "ccode":"MM"
+  },
+  {
+    "countrycaps":"NAMIBIA",
+    "extra":"NAMIBIA",
+    "countrylower":"Namibia",
+    "ISO CODES":"NA / NAM",
+    "ccode":"NA"
+  },
+  {
+    "countrycaps":"NAURU",
+    "extra":"NAURU",
+    "countrylower":"Nauru",
+    "ISO CODES":"NR / NRU",
+    "ccode":"NR"
+  },
+  {
+    "countrycaps":"NEPAL",
+    "extra":"NEPAL",
+    "countrylower":"Nepal",
+    "ISO CODES":"NP / NPL",
+    "ccode":"NP"
+  },
+  {
+    "countrycaps":"NETHERLANDS",
+    "extra":"NETHERLANDS",
+    "countrylower":"Netherlands",
+    "ISO CODES":"NL / NLD",
+    "ccode":"NL"
+  },
+  {
+    "countrycaps":"NETHERLANDSANTILLES",
+    "extra":"NETHERLANDS ANTILLES",
+    "countrylower":"Netherlands Antilles",
+    "ISO CODES":"AN / ANT",
+    "ccode":"AN"
+  },
+  {
+    "countrycaps":"NEWCALEDONIA",
+    "extra":"NEW CALEDONIA",
+    "countrylower":"New Caledonia",
+    "ISO CODES":"NC / NCL",
+    "ccode":"NC"
+  },
+  {
+    "countrycaps":"NEWZEALAND",
+    "extra":"NEW ZEALAND",
+    "countrylower":"New Zealand",
+    "ISO CODES":"NZ / NZL",
+    "ccode":"NZ"
+  },
+  {
+    "countrycaps":"NICARAGUA",
+    "extra":"NICARAGUA",
+    "countrylower":"Nicaragua",
+    "ISO CODES":"NI / NIC",
+    "ccode":"NI"
+  },
+  {
+    "countrycaps":"NIGER",
+    "extra":"NIGER",
+    "countrylower":"Niger",
+    "ISO CODES":"NE / NER",
+    "ccode":"NE"
+  },
+  {
+    "countrycaps":"NIGERIA",
+    "extra":"NIGERIA",
+    "countrylower":"Nigeria",
+    "ISO CODES":"NG / NGA",
+    "ccode":"NG"
+  },
+  {
+    "countrycaps":"NIUE",
+    "extra":"NIUE",
+    "countrylower":"Niue",
+    "ISO CODES":"NU / NIU",
+    "ccode":"NU"
+  },
+  {
+    "countrycaps":"NORTHKOREA",
+    "extra":"NORTH KOREA",
+    "countrylower":"North Korea",
+    "ISO CODES":"KP / PRK",
+    "ccode":"KP"
+  },
+  {
+    "countrycaps":"NORTHERNMARIANAISLANDS",
+    "extra":"NORTHERN MARIANA ISLANDS",
+    "countrylower":"Northern Mariana Islands",
+    "ISO CODES":"MP / MNP",
+    "ccode":"MP"
+  },
+  {
+    "countrycaps":"NORWAY",
+    "extra":"NORWAY",
+    "countrylower":"Norway",
+    "ISO CODES":"NO / NOR",
+    "ccode":"NO"
+  },
+  {
+    "countrycaps":"OMAN",
+    "extra":"OMAN",
+    "countrylower":"Oman",
+    "ISO CODES":"OM / OMN",
+    "ccode":"OM"
+  },
+  {
+    "countrycaps":"PAKISTAN",
+    "extra":"PAKISTAN",
+    "countrylower":"Pakistan",
+    "ISO CODES":"PK / PAK",
+    "ccode":"PK"
+  },
+  {
+    "countrycaps":"PALAU",
+    "extra":"PALAU",
+    "countrylower":"Palau",
+    "ISO CODES":"PW / PLW",
+    "ccode":"PW"
+  },
+  {
+    "countrycaps":"PALESTINE",
+    "extra":"PALESTINE",
+    "countrylower":"Palestine",
+    "ISO CODES":"PS / PSE",
+    "ccode":"PS"
+  },
+  {
+    "countrycaps":"PANAMA",
+    "extra":"PANAMA",
+    "countrylower":"Panama",
+    "ISO CODES":"PA / PAN",
+    "ccode":"PA"
+  },
+  {
+    "countrycaps":"PAPUANEWGUINEA",
+    "extra":"PAPUA NEW GUINEA",
+    "countrylower":"Papua New Guinea",
+    "ISO CODES":"PG / PNG",
+    "ccode":"PG"
+  },
+  {
+    "countrycaps":"PARAGUAY",
+    "extra":"PARAGUAY",
+    "countrylower":"Paraguay",
+    "ISO CODES":"PY / PRY",
+    "ccode":"PY"
+  },
+  {
+    "countrycaps":"PERU",
+    "extra":"PERU",
+    "countrylower":"Peru",
+    "ISO CODES":"PE / PER",
+    "ccode":"PE"
+  },
+  {
+    "countrycaps":"PHILIPPINES",
+    "extra":"PHILIPPINES",
+    "countrylower":"Philippines",
+    "ISO CODES":"PH / PHL",
+    "ccode":"PH"
+  },
+  {
+    "countrycaps":"PITCAIRN",
+    "extra":"PITCAIRN",
+    "countrylower":"Pitcairn",
+    "ISO CODES":"PN / PCN",
+    "ccode":"PN"
+  },
+  {
+    "countrycaps":"POLAND",
+    "extra":"POLAND",
+    "countrylower":"Poland",
+    "ISO CODES":"PL / POL",
+    "ccode":"PL"
+  },
+  {
+    "countrycaps":"PORTUGAL",
+    "extra":"PORTUGAL",
+    "countrylower":"Portugal",
+    "ISO CODES":"PT / PRT",
+    "ccode":"PT"
+  },
+  {
+    "countrycaps":"PUERTORICO",
+    "extra":"PUERTO RICO",
+    "countrylower":"Puerto Rico",
+    "ISO CODES":"PR / PRI",
+    "ccode":"PR"
+  },
+  {
+    "countrycaps":"QATAR",
+    "extra":"QATAR",
+    "countrylower":"Qatar",
+    "ISO CODES":"QA / QAT",
+    "ccode":"QA"
+  },
+  {
+    "countrycaps":"REPUBLICOFTHECONGO",
+    "extra":"REPUBLIC OF THE CONGO",
+    "countrylower":"Republic of the Congo",
+    "ISO CODES":"CG / COG",
+    "ccode":"CG"
+  },
+  {
+    "countrycaps":"REUNION",
+    "extra":"REUNION",
+    "countrylower":"Reunion",
+    "ISO CODES":"RE / REU",
+    "ccode":"RE"
+  },
+  {
+    "countrycaps":"ROMANIA",
+    "extra":"ROMANIA",
+    "countrylower":"Romania",
+    "ISO CODES":"RO / ROU",
+    "ccode":"RO"
+  },
+  {
+    "countrycaps":"ROSSIYA",
+    "extra":"RUSSIA",
+    "countrylower":"Russia",
+    "ISO CODES":"RU / RUS",
+    "ccode":"RU"
+  },
+  {
+    "countrycaps":"RWANDA",
+    "extra":"RWANDA",
+    "countrylower":"Rwanda",
+    "ISO CODES":"RW / RWA",
+    "ccode":"RW"
+  },
+  {
+    "countrycaps":"SAINTBARTHELEMY",
+    "extra":"SAINT BARTHELEMY",
+    "countrylower":"Saint Barthelemy",
+    "ISO CODES":"BL / BLM",
+    "ccode":"BL"
+  },
+  {
+    "countrycaps":"SAINTHELENA",
+    "extra":"SAINT HELENA",
+    "countrylower":"Saint Helena",
+    "ISO CODES":"SH / SHN",
+    "ccode":"SH"
+  },
+  {
+    "countrycaps":"SAINTKITTSANDNEVIS",
+    "extra":"SAINT KITTS AND NEVIS",
+    "countrylower":"Saint Kitts and Nevis",
+    "ISO CODES":"KN / KNA",
+    "ccode":"KN"
+  },
+  {
+    "countrycaps":"SAINTLUCIA",
+    "extra":"SAINT LUCIA",
+    "countrylower":"Saint Lucia",
+    "ISO CODES":"LC / LCA",
+    "ccode":"LC"
+  },
+  {
+    "countrycaps":"SAINTMARTIN",
+    "extra":"SAINT MARTIN",
+    "countrylower":"Saint Martin",
+    "ISO CODES":"MF / MAF",
+    "ccode":"MF"
+  },
+  {
+    "countrycaps":"SAINTPIERREANDMIQUELON",
+    "extra":"SAINT PIERRE AND MIQUELON",
+    "countrylower":"Saint Pierre and Miquelon",
+    "ISO CODES":"PM / SPM",
+    "ccode":"PM"
+  },
+  {
+    "countrycaps":"SAINTVINCENTANDTHEGRENADINES",
+    "extra":"SAINT VINCENT AND THE GRENADINES",
+    "countrylower":"Saint Vincent and the Grenadines",
+    "ISO CODES":"VC / VCT",
+    "ccode":"VC"
+  },
+  {
+    "countrycaps":"SAMOA",
+    "extra":"SAMOA",
+    "countrylower":"Samoa",
+    "ISO CODES":"WS / WSM",
+    "ccode":"WS"
+  },
+  {
+    "countrycaps":"SANMARINO",
+    "extra":"SAN MARINO",
+    "countrylower":"San Marino",
+    "ISO CODES":"SM / SMR",
+    "ccode":"SM"
+  },
+  {
+    "countrycaps":"SAOTOMEANDPRINCIPE",
+    "extra":"SAO TOME AND PRINCIPE",
+    "countrylower":"Sao Tome and Principe",
+    "ISO CODES":"ST / STP",
+    "ccode":"ST"
+  },
+  {
+    "countrycaps":"SAUDIARABIA",
+    "extra":"SAUDI ARABIA",
+    "countrylower":"Saudi Arabia",
+    "ISO CODES":"SA / SAU",
+    "ccode":"SA"
+  },
+  {
+    "countrycaps":"SENEGAL",
+    "extra":"SENEGAL",
+    "countrylower":"Senegal",
+    "ISO CODES":"SN / SEN",
+    "ccode":"SN"
+  },
+  {
+    "countrycaps":"SERBIA",
+    "extra":"SERBIA",
+    "countrylower":"Serbia",
+    "ISO CODES":"RS / SRB",
+    "ccode":"RS"
+  },
+  {
+    "countrycaps":"SEYCHELLES",
+    "extra":"SEYCHELLES",
+    "countrylower":"Seychelles",
+    "ISO CODES":"SC / SYC",
+    "ccode":"SC"
+  },
+  {
+    "countrycaps":"SIERRALEONE",
+    "extra":"SIERRA LEONE",
+    "countrylower":"Sierra Leone",
+    "ISO CODES":"SL / SLE",
+    "ccode":"SL"
+  },
+  {
+    "countrycaps":"SINGAPORE",
+    "extra":"SINGAPORE",
+    "countrylower":"Singapore",
+    "ISO CODES":"SG / SGP",
+    "ccode":"SG"
+  },
+  {
+    "countrycaps":"SINTMAARTEN",
+    "extra":"SINT MAARTEN",
+    "countrylower":"Sint Maarten",
+    "ISO CODES":"SX / SXM",
+    "ccode":"SX"
+  },
+  {
+    "countrycaps":"SLOVAKIA",
+    "extra":"SLOVAKIA",
+    "countrylower":"Slovakia",
+    "ISO CODES":"SK / SVK",
+    "ccode":"SK"
+  },
+  {
+    "countrycaps":"SLOVENIA",
+    "extra":"SLOVENIA",
+    "countrylower":"Slovenia",
+    "ISO CODES":"SI / SVN",
+    "ccode":"SI"
+  },
+  {
+    "countrycaps":"SOLOMONISLANDS",
+    "extra":"SOLOMON ISLANDS",
+    "countrylower":"Solomon Islands",
+    "ISO CODES":"SB / SLB",
+    "ccode":"SB"
+  },
+  {
+    "countrycaps":"SOMALIA",
+    "extra":"SOMALIA",
+    "countrylower":"Somalia",
+    "ISO CODES":"SO / SOM",
+    "ccode":"SO"
+  },
+  {
+    "countrycaps":"SOUTHAFRICA",
+    "extra":"SOUTH AFRICA",
+    "countrylower":"South Africa",
+    "ISO CODES":"ZA / ZAF",
+    "ccode":"ZA"
+  },
+  {
+    "countrycaps":"SOUTHKOREA",
+    "extra":"SOUTH KOREA",
+    "countrylower":"South Korea",
+    "ISO CODES":"KR / KOR",
+    "ccode":"KR"
+  },
+  {
+    "countrycaps":"SOUTHSUDAN",
+    "extra":"SOUTH SUDAN",
+    "countrylower":"South Sudan",
+    "ISO CODES":"SS / SSD",
+    "ccode":"SS"
+  },
+  {
+    "countrycaps":"SPAIN",
+    "extra":"SPAIN",
+    "countrylower":"Spain",
+    "ISO CODES":"ES / ESP",
+    "ccode":"ES"
+  },
+  {
+    "countrycaps":"SRILANKA",
+    "extra":"SRI LANKA",
+    "countrylower":"Sri Lanka",
+    "ISO CODES":"LK / LKA",
+    "ccode":"LK"
+  },
+  {
+    "countrycaps":"SUDAN",
+    "extra":"SUDAN",
+    "countrylower":"Sudan",
+    "ISO CODES":"SD / SDN",
+    "ccode":"SD"
+  },
+  {
+    "countrycaps":"SURINAME",
+    "extra":"SURINAME",
+    "countrylower":"Suriname",
+    "ISO CODES":"SR / SUR",
+    "ccode":"SR"
+  },
+  {
+    "countrycaps":"SVALBARDANDJANMAYEN",
+    "extra":"SVALBARD AND JAN MAYEN",
+    "countrylower":"Svalbard and Jan Mayen",
+    "ISO CODES":"SJ / SJM",
+    "ccode":"SJ"
+  },
+  {
+    "countrycaps":"SWAZILAND",
+    "extra":"SWAZILAND",
+    "countrylower":"Swaziland",
+    "ISO CODES":"SZ / SWZ",
+    "ccode":"SZ"
+  },
+  {
+    "countrycaps":"SWEDEN",
+    "extra":"SWEDEN",
+    "countrylower":"Sweden",
+    "ISO CODES":"SE / SWE",
+    "ccode":"SE"
+  },
+  {
+    "countrycaps":"SWITZERLAND",
+    "extra":"SWITZERLAND",
+    "countrylower":"Switzerland",
+    "ISO CODES":"CH / CHE",
+    "ccode":"CH"
+  },
+  {
+    "countrycaps":"SYRIA",
+    "extra":"SYRIA",
+    "countrylower":"Syria",
+    "ISO CODES":"SY / SYR",
+    "ccode":"SY"
+  },
+  {
+    "countrycaps":"TAIWAN",
+    "extra":"TAIWAN",
+    "countrylower":"Taiwan",
+    "ISO CODES":"TW / TWN",
+    "ccode":"TW"
+  },
+  {
+    "countrycaps":"TAJIKISTAN",
+    "extra":"TAJIKISTAN",
+    "countrylower":"Tajikistan",
+    "ISO CODES":"TJ / TJK",
+    "ccode":"TJ"
+  },
+  {
+    "countrycaps":"TANZANIA",
+    "extra":"TANZANIA",
+    "countrylower":"Tanzania",
+    "ISO CODES":"TZ / TZA",
+    "ccode":"TZ"
+  },
+  {
+    "countrycaps":"THAILAND",
+    "extra":"THAILAND",
+    "countrylower":"Thailand",
+    "ISO CODES":"TH / THA",
+    "ccode":"TH"
+  },
+  {
+    "countrycaps":"TOGO",
+    "extra":"TOGO",
+    "countrylower":"Togo",
+    "ISO CODES":"TG / TGO",
+    "ccode":"TG"
+  },
+  {
+    "countrycaps":"TOKELAU",
+    "extra":"TOKELAU",
+    "countrylower":"Tokelau",
+    "ISO CODES":"TK / TKL",
+    "ccode":"TK"
+  },
+  {
+    "countrycaps":"TONGA",
+    "extra":"TONGA",
+    "countrylower":"Tonga",
+    "ISO CODES":"TO / TON",
+    "ccode":"TO"
+  },
+  {
+    "countrycaps":"TRINIDADANDTOBAGO",
+    "extra":"TRINIDAD AND TOBAGO",
+    "countrylower":"Trinidad and Tobago",
+    "ISO CODES":"TT / TTO",
+    "ccode":"TT"
+  },
+  {
+    "countrycaps":"TUNISIA",
+    "extra":"TUNISIA",
+    "countrylower":"Tunisia",
+    "ISO CODES":"TN / TUN",
+    "ccode":"TN"
+  },
+  {
+    "countrycaps":"TÃœRKIYE",
+    "extra":"TURKEY",
+    "countrylower":"Turkey",
+    "ISO CODES":"TR / TUR",
+    "ccode":"TR"
+  },
+  {
+    "countrycaps":"TURKMENISTAN",
+    "extra":"TURKMENISTAN",
+    "countrylower":"Turkmenistan",
+    "ISO CODES":"TM / TKM",
+    "ccode":"TM"
+  },
+  {
+    "countrycaps":"TURKSANDCAICOSISLANDS",
+    "extra":"TURKS AND CAICOS ISLANDS",
+    "countrylower":"Turks and Caicos Islands",
+    "ISO CODES":"TC / TCA",
+    "ccode":"TC"
+  },
+  {
+    "countrycaps":"TUVALU",
+    "extra":"TUVALU",
+    "countrylower":"Tuvalu",
+    "ISO CODES":"TV / TUV",
+    "ccode":"TV"
+  },
+  {
+    "countrycaps":"U.S.VIRGINISLANDS",
+    "extra":"U.S. VIRGIN ISLANDS",
+    "countrylower":"U.S. Virgin Islands",
+    "ISO CODES":"VI / VIR",
+    "ccode":"VI"
+  },
+  {
+    "countrycaps":"UGANDA",
+    "extra":"UGANDA",
+    "countrylower":"Uganda",
+    "ISO CODES":"UG / UGA",
+    "ccode":"UG"
+  },
+  {
+    "countrycaps":"UKRAINE",
+    "extra":"UKRAINE",
+    "countrylower":"Ukraine",
+    "ISO CODES":"UA / UKR",
+    "ccode":"UA"
+  },
+  {
+    "countrycaps":"UNITEDARABEMIRATES",
+    "extra":"UNITED ARAB EMIRATES",
+    "countrylower":"United Arab Emirates",
+    "ISO CODES":"AE / ARE",
+    "ccode":"AE"
+  },
+  {
+    "countrycaps":"UNITEDKINGDOM",
+    "extra":"UNITED KINGDOM",
+    "countrylower":"United Kingdom",
+    "ISO CODES":"GB / GBR",
+    "ccode":"GB"
+  },
+  {
+    "countrycaps":"UNITEDSTATES",
+    "extra":"UNITED STATES",
+    "countrylower":"United States",
+    "ISO CODES":"US / USA",
+    "ccode":"US"
+  },
+  {
+    "countrycaps":"URUGUAY",
+    "extra":"URUGUAY",
+    "countrylower":"Uruguay",
+    "ISO CODES":"UY / URY",
+    "ccode":"UY"
+  },
+  {
+    "countrycaps":"UZBEKISTAN",
+    "extra":"UZBEKISTAN",
+    "countrylower":"Uzbekistan",
+    "ISO CODES":"UZ / UZB",
+    "ccode":"UZ"
+  },
+  {
+    "countrycaps":"VANUATU",
+    "extra":"VANUATU",
+    "countrylower":"Vanuatu",
+    "ISO CODES":"VU / VUT",
+    "ccode":"VU"
+  },
+  {
+    "countrycaps":"VATICAN",
+    "extra":"VATICAN",
+    "countrylower":"Vatican",
+    "ISO CODES":"VA / VAT",
+    "ccode":"VA"
+  },
+  {
+    "countrycaps":"VENEZUELA",
+    "extra":"VENEZUELA",
+    "countrylower":"Venezuela",
+    "ISO CODES":"VE / VEN",
+    "ccode":"VE"
+  },
+  {
+    "countrycaps":"VIETNAM",
+    "extra":"VIETNAM",
+    "countrylower":"Vietnam",
+    "ISO CODES":"VN / VNM",
+    "ccode":"VN"
+  },
+  {
+    "countrycaps":"WALLISANDFUTUNA",
+    "extra":"WALLIS AND FUTUNA",
+    "countrylower":"Wallis and Futuna",
+    "ISO CODES":"WF / WLF",
+    "ccode":"WF"
+  },
+  {
+    "countrycaps":"WESTERNSAHARA",
+    "extra":"WESTERN SAHARA",
+    "countrylower":"Western Sahara",
+    "ISO CODES":"EH / ESH",
+    "ccode":"EH"
+  },
+  {
+    "countrycaps":"YEMEN",
+    "extra":"YEMEN",
+    "countrylower":"Yemen",
+    "ISO CODES":"YE / YEM",
+    "ccode":"YE"
+  },
+  {
+    "countrycaps":"ZAMBIA",
+    "extra":"ZAMBIA",
+    "countrylower":"Zambia",
+    "ISO CODES":"ZM / ZMB",
+    "ccode":"ZM"
+  },
+  {
+    "countrycaps":"ZIMBABWE",
+    "extra":"ZIMBABWE",
+    "countrylower":"Zimbabwe",
+    "ISO CODES":"ZW / ZWE",
+    "ccode":"ZW"
+  }
+]
