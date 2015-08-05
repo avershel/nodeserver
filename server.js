@@ -120,7 +120,9 @@ app.get('/tweets/realtime/country/:id', function(req, res) {
 
         paramcountry = paramcountry.replace(/\s+/g, '');
         paramcountry = paramcountry.toUpperCase();
-
+        if (paramcountry == 'RUSSIA') {
+          paramcountry == 'ROSSIYA';
+        }
 
         for (var i = 0; i < jsonObj.length; i++) {
           if(jsonObj[i].countrycaps == paramcountry)
