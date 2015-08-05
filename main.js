@@ -6,30 +6,15 @@ var yVal = 0;
 var updateInterval = 5000;
 var dataLength = 60; // number of dataPoints visible at any point
 
-
-
-
 socket.on('foo', function(msg) {
   holder.push(msg);
 });
 
-
-
-
-function updateterm()
-{
-  console.log('updating term');
-  var term=document.getElementById("tf").value;
-  console.log('term = ' + term);
-  holder = [];
-  socket.emit('term', term);
-
-}
 var dps = []; // dataPoints
 
 var chart = new CanvasJS.Chart("chartContainer",{
 	title :{
-		text: "NOLO Twitter Stream"
+		text: "Twitter Stream Visualization"
 	},
 	axisX:{
 		title: "Seconds"
